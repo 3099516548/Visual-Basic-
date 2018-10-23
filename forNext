@@ -1,0 +1,19 @@
+Private Sub Command1_Click()
+   a = ""
+   For n = 1 To 100 Step 2
+     s = 0
+     For i = 2 To Int(Sqr(n))
+       If n Mod i = 0 Then
+         s = 1
+         Exit For
+       End If
+       
+     
+     Next
+        If s = 0 Then a = a & Str(n) & vbCrLf '我一开始的时候，不能明白为什么print a 在 for ... next 的外面，后来明白，a 的值是一串字符串，而不是一串独立的数字。
+        
+   Next
+   Print a '我一开始的时候，不能明白为什么print a 在 for ... next 的外面，后来明白，a 的值是一串字符串，而不是一串独立的数字。
+   
+End Sub
+
