@@ -1,0 +1,106 @@
+Type Human
+      No As Integer
+      name As String * 10
+      sex As String * 6
+      Mark(1 To 4) As Single
+      
+      totalMark As Single
+      
+ End Type
+
+Public Function saidHello(helloWord As String)
+
+    
+    saidHello = helloWord 'there is a words for hello
+    
+    
+
+End Function
+
+Public Function tryFunctionAg(tryF As Integer)
+    Dim la As Integer
+    Dim do_ As Integer
+    Dim re As String
+    Dim me_ As String
+    
+    If tryF = 0 Then
+                    la = 0
+                    tryFunctionAg = la
+                Else
+                    If tryF = 1 Then
+                                    do_ = 1
+                                    tryFunctionAg = do_
+                                    Else
+                                        If tryF = 2 Then
+                                                        
+                                                        re = 2
+                                                        tryFunctionAg = re
+                                                        
+                                                    Else
+                                                        If tryF = 3 Then
+                                                                        me_ = 3
+                                                                        tryFunctionAg = me_
+                                                                            
+    End If
+    
+    End If
+    End If
+    End If
+    
+                
+                
+    
+End Function
+
+
+
+Public Function GoodMorning(Morning As String)
+               
+                
+                Dim morningWord As String * 20
+                
+                Dim a As Integer
+                
+                For a = 0 To 10
+                                 morningWord = Chr(a)
+                                 Morning = moring & morningWord
+                                 GoodMorning = Morning
+                                 
+                                 
+                                
+                                 
+                
+                Next
+                
+               
+  
+End Function
+
+
+Public Function FuctionNo2(parama As Integer)
+                                             Dim a As Integer
+                                             
+                                             a = InputBox("input the value of a")
+                                             
+                                             parama = parama - a
+                                             
+                                             FuctionNo2 = parama
+                                             
+End Function
+
+
+
+Public Function functionNo3(parama As String)
+                                            
+                                            Dim abc As String
+                                            Dim cd As String
+                                            
+                                            abc = InputBox("hello,please input a string word")
+                                            
+                                            cd = parama & abc
+                                            
+                                            functionNo3 = cd
+                                            
+                                        
+End Function
+
