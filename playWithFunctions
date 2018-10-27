@@ -1,0 +1,88 @@
+Option Explicit
+
+Private Sub Command1_Click()
+Rem While True
+    ' MsgBox ("click it")
+     
+ Rem Wend
+ 
+ '   Do
+  '   MsgBox ("{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}")
+     
+     
+   '  Print "hello,world"
+     
+    ' Loop While True
+    
+    
+    
+ 
+'End Sub
+
+' Dim i As Integer
+ 
+ 'For i = 1 To 100
+  '  Print i
+    
+' Next i
+ 
+  
+ Dim hyy As Human
+      hyy.name = "huang yuyu"
+      hyy.sex = "male"
+      
+ 
+ 'End Sub
+
+
+Print hyy.name
+Print hyy.sex
+
+Dim i As Integer
+
+Dim hyx As Human
+With hyx
+    .name = "Huangyuxin"
+    .No = "010308"
+     
+    .Mark(1) = 100
+    .Mark(2) = 100
+    .Mark(3) = 100
+    .Mark(4) = 100
+    .totalMark = .Mark(1) + .Mark(2) + .Mark(3) + .Mark(4)
+    
+    .sex = "female"
+End With
+
+For i = 1 To 4
+   Print hyx.Mark(i)
+Next
+
+Print hyx.totalMark
+
+Dim lsx As Human
+
+With lsx
+   For i = 1 To 4
+      .Mark(i) = i * 100 - i
+      
+   Next
+   
+End With
+Print lsx.totalMark
+
+Text1.Text = saidHello("Nice,Mand")
+
+
+'Text1.Text = tryFunctionAg(InputBox("input a integer"))
+
+
+'Text1.Text = GoodMorning("Nice to meet you")
+
+Text1.Text = FuctionNo2(50)
+
+Text1.Text = functionNo3("Hello,world")
+
+
+End Sub
+
